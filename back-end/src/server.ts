@@ -4,8 +4,6 @@ import { routes } from "./routes";
 
 const app = express();
 
-// a
-
 app.use(cors());
 app.use(express.json());
 app.use(routes);
